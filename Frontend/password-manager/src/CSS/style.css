@@ -1,0 +1,379 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Kumbh Sans;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  color: black;
+  scroll-behavior: smooth;
+}
+.container {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+/* Section 1 */
+
+.first-section-left-header {
+  color: black;
+}
+
+.first-section-left-header span {
+  font-weight: bolder;
+  font-size: 70px;
+  line-height: 1.1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.first-section-left-header p {
+  font-size: 17px;
+  line-height: 1.8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px 1px;
+}
+
+.login-header span {
+  font-size: 50px;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.first-section form {
+  width: 100%;
+}
+
+.login-form input {
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.login-button {
+  color: white;
+  font-size: 20px;
+  background-color: rgb(66, 66, 173);
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  padding: 5px;
+}
+
+.login-header .signup-area span {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.login-section .signup-area {
+  width: 100%;
+}
+.login-section .signup-area button {
+  color: white;
+  background-color: rgb(66, 66, 173);
+  border: none;
+  border-radius: 5px;
+}
+
+/* Section 2 */
+.second-section {
+  background-color: hsl(0, 4%, 91%);
+  width: 100%;
+}
+
+.second-section .header {
+  text-align: center;
+  font-size: 1.1rem;
+  width: 100%;
+}
+
+.second-section .header-section {
+  font-size: 35px;
+}
+
+.second-section .header-section span {
+  display: inline-flex;
+  flex-direction: row;
+}
+
+.second-section .content-section-left {
+  text-align: left;
+}
+.content-section-left p {
+  font-size: 18px;
+  line-height: 0;
+}
+
+.second-section .content-section-left h1 {
+  font-size: 55px;
+  font-weight: bolder;
+  line-height: 1.2;
+}
+
+.second-section .content-section-left button {
+  color: #fff;
+  border-radius: 50px;
+  border: none;
+  font-size: 14px;
+  background-color: rgb(78, 77, 77);
+}
+
+.second-section .content-section-right p {
+  line-height: 1.5;
+  font-size: 18px;
+  font-weight: 100;
+}
+.second-section .content-details {
+  display: flex;
+  justify-content: space-around;
+}
+
+.second-section .content-details .detail-box {
+  background-color: #fff;
+  width: fit-content;
+  height: auto;
+}
+
+.detail-box h4 {
+  text-align: center;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.detail-box p {
+  text-align: center;
+  font-size: 18px;
+  margin: 20px;
+}
+
+/* Third-Section */
+
+.third-section {
+  background-color: black;
+  color: white;
+}
+
+.third-section .header {
+  text-align: center;
+}
+
+.third-section .header span {
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.content-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.third-section .content-order {
+  border-radius: 5000px;
+  font-size: 35px;
+  width: 60px;
+  height: 60px;
+  font-weight: bold;
+  background-color: rgb(223, 218, 218);
+  color: black;
+}
+
+.third-section .content-data h3 {
+  font-weight: bold;
+}
+
+.third-section .content-data p {
+  font-size: 18px;
+  color: #9a9797;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+
+/* Fourth section */
+
+.fourth-section .left-content p {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.fourth-section .content-box {
+  border: 1px solid black;
+}
+
+.fourth-section .right-content p {
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+.fourth-section .profile-section {
+  line-height: 0.5;
+}
+.fourth-section .profile-section img {
+  width: 50px;
+  height: 50px;
+  border-radius: 5000px;
+}
+.fourth-section .checked {
+  color: rgba(255, 183, 0, 0.912);
+}
+
+.fourth-section .unchecked {
+  color: rgb(179, 176, 176);
+}
+
+.fourth-section .profile-section span {
+  font-size: 0.8rem;
+}
+
+/* FIFTH SECTION */
+.fifth-section {
+  background-color: #dfdfdf;
+  flex-direction: column;
+}
+
+.fifth-section .header {
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+.fifth-section .header-content {
+  font-size: 18px;
+}
+
+.fifth-section .searchbar {
+  width: 100%;
+  display: flex;
+}
+
+.fifth-section input {
+  border-radius: 50px;
+  border: none;
+  flex: 2;
+}
+
+.fifth-section button {
+  border-radius: 50px;
+  color: #fff;
+  border: none;
+  font-weight: bolder;
+  font-size: 12px;
+  background-color: rgb(103, 102, 102);
+  margin-left: -150px;
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-logo {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.footer h3 {
+  font-weight: bold;
+}
+
+.footer h3 img {
+  width: 30px;
+  height: 30px;
+}
+
+.footer-right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+.footer-right ul {
+  display: inline-flex;
+  list-style-type: none;
+}
+
+.footer-right a {
+  text-decoration: none;
+  color: gray;
+  font-size: 1.1rem;
+}
+
+.Signup-page-body h1 {
+  font-size: 3rem;
+  color: rgb(74, 4, 76);
+  text-shadow: 5px 5px 5px rgba(63, 21, 21, 0.5);
+  font-weight: bolder;
+  text-align: center;
+  font-family: Kumbh Sans;
+}
+.Signup-page-body .container {
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Signup-page-body .row {
+  width: fit-content;
+  border-radius: 1rem;
+  border-radius: 20px;
+  box-shadow: 0 5px 5px 10px rgb(240, 239, 239);
+}
+
+.Signup-page-body .Signup-header p {
+  text-align: center;
+}
+
+.Signup-page-body .searchbar input {
+  width: 100%;
+  border: 1px solid #9a9797;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+.Signup-page-body .Signup-header p {
+  color: rgb(28, 21, 124);
+  text-shadow: 2px 5px 4px rgba(63, 21, 21, 0.5);
+  font-weight: bolder;
+}
+
+.Signup-page-body .signup-submit-button button {
+  width: 50%;
+  background-color: rgb(62, 10, 165);
+  border: none;
+  color: #fff;
+  border-radius: 0.5rem;
+}
+
+.Signup-page-body .signup-right-section {
+  border-radius: 0 20px 20px 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.Signup-page-body .signup-right-section img {
+  width: 100%;
+  height: 40vh;
+  margin-top: 10px;
+}
