@@ -27,6 +27,10 @@ app.post("/pwdmanager", async(req, res) => {
     user.login(req, function (response) {
       res.json({ response });
      });
+  }else if(req.body.route==="signup"){
+    user.signup(req,function(response){
+      res.json({response});
+    })
   } else {
     console.log("Invalid request"); 
     res.status(400).json({ error: "Invalid request" });
