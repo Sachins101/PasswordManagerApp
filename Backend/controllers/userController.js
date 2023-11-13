@@ -55,8 +55,7 @@ methods.signUp = async (req, callback) => {
     let profileImage = req.body.profile_image_url;
     if (req.body) {
       if (req.body.email_id) {
-        var query = `SELECT  * FROM user  ' +
-                    'WHERE  email_id=${emailId}  `;
+        var query = `SELECT  * FROM user WHERE email_id='${emailId}'  `;
         var result = await connection.callConnection1(query, data);
         if (typeof result !== "undefined" && result.length > 0) {
           failResponse.push({
